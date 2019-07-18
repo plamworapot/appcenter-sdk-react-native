@@ -24,7 +24,7 @@
   },
   "rnpm": {
     "android": {
-      "packageInstance": "new AppCenterReactNativeAnalyticsPackage(MainApplication.this, getResources().getString(R.string.appCenterAnalytics_whenToEnableAnalytics))"
+      "packageInstance": "new AppCenterReactNativeAnalyticsPackage(this.getApplication(), getResources().getString(R.string.appCenterAnalytics_whenToEnableAnalytics))"
     },
     "commands": {
       "postlink": "node node_modules/appcenter-analytics/scripts/postlink"
