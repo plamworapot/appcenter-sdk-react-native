@@ -23,7 +23,7 @@
   },
   "rnpm": {
     "android": {
-      "packageInstance": "new AppCenterReactNativePackage(MainApplication.this)"
+      "packageInstance": "new AppCenterReactNativePackage(this.getApplication())"
     },
     "commands": {
       "postlink": "node node_modules/appcenter/scripts/postlink"
