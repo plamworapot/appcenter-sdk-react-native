@@ -26,7 +26,7 @@
   },
   "rnpm": {
     "android": {
-      "packageInstance": "new AppCenterReactNativeCrashesPackage(MainApplication.this, getResources().getString(R.string.appCenterCrashes_whenToSendCrashes))"
+      "packageInstance": "new AppCenterReactNativeCrashesPackage(this.getApplication(), getResources().getString(R.string.appCenterCrashes_whenToSendCrashes))"
     },
     "commands": {
       "postlink": "node node_modules/appcenter-crashes/scripts/postlink"
