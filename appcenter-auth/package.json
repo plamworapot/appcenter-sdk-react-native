@@ -24,7 +24,7 @@
   },
   "rnpm": {
     "android": {
-      "packageInstance": "new AppCenterReactNativeAuthPackage(MainApplication.this)"
+      "packageInstance": "new AppCenterReactNativeAuthPackage(this.getApplication())"
     },
     "commands": {
       "postlink": "node node_modules/appcenter-auth/scripts/postlink"
